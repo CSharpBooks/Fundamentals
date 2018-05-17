@@ -1,8 +1,8 @@
 # Setup your first development environment
 
 To be able to learn programming you will need to have some programs that make your life easier.
-No reasonable developer will want to write code inside of Notepad or Word, or share code throught USB drives.
-In this chapter we will help you setup your development environment.
+No reasonable developer will want to write code in Notepad or Word, or share code through USB drives.
+In this chapter you will learn how to setup your development environment.
 
 
 
@@ -12,7 +12,7 @@ An IDE comes in all sorts and flavours and as of late there are a few really sol
 The top 3 IDE's for C# currently are:
 
 - [Visual Studio](https://www.visualstudio.com/)
-- [Visual Studio Code](https://www.visualstudio.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [Rider](https://www.jetbrains.com/rider/)
 
 
@@ -35,7 +35,7 @@ Visual Studio Code is a lot like Rider, but isn't as polished
 Here are the links to the installation guides for all the IDE's
 
 Visual Studio
-- [VWindows](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio)
+- [Windows](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio)
 
 Visual Studio Code
 - [Windows](https://code.visualstudio.com/docs/setup/windows)
