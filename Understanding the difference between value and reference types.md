@@ -19,7 +19,7 @@ In C# there are 15 value types  —
 
 and any struct. As for the reference types, C# has 3 built-in types — *dynamic*, *object* and *string*. And anything else that is a *class*, *interface*, *array* or *delegate* is also considered a reference type.
 
-###So, what ***is*** the difference between them?
+### So, what ***is*** the difference between them?
 
 
 
