@@ -4,7 +4,7 @@
 
 To prevent any possible problems in a code it is important to know how value and reference types work.
 
-In C# there are 14 value types  —
+In C# there are 15 value types  —
 
 * bool
 * byte / sbyte
@@ -14,9 +14,10 @@ In C# there are 14 value types  —
 * float
 * int / unit
 * long / ulong
-* short / ushort ,
+* short / ushort 
+* enum
 
-and any struct. As for the reference types, C# has 3 built-in types — *dynamic*, *object* and *string*. And anything else that is a *class*, *interface* or *delegate* is also considered a reference type.
+and any struct. As for the reference types, C# has 3 built-in types — *dynamic*, *object* and *string*. And anything else that is a *class*, *interface*, *array* or *delegate* is also considered a reference type.
 
 ###So, what ***is*** the difference between them?
 
