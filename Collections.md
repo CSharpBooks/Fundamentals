@@ -1,6 +1,6 @@
 # Collections
 
-Collections allow you to store multiple objects or values in a unified manner. There are multiple types of collections and each one has its strengths and weaknesses.
+Collections allow you to store multiple objects or values and treat it as a single thing. Just like you can store multiple apples in a single bag, you can store multiple elements in a collection. There are multiple types of collections and each one has its strengths and weaknesses. You'll find that different scenarios require different collection type.
 
 ## Enumerables
 
@@ -52,12 +52,20 @@ people.RemoveAll(person => person.DateOfBirth.Year == 1990); // remove all peopl
 ## Dictionaries
 
 ???
+- use case
+- mapping from keys to values
+- example
+- is a collection of `KeyValuePair<K, V>`
+- unique keys
+- unordered
+- dependency on `Equals()` and `GetHashCode()`
+- custom lookup with `IEqualityComparer<T>`
 
-## HashSet
+## HashSets
 
 ???
 
-## SortedSet
+## SortedSets
 
 ???
 
@@ -74,6 +82,6 @@ OverlyRestrictiveFunction(list.ToArray());
 
 ## Non-generic collections
 
-They are located in `System.Collections`. Since generic collections are infinitely more convenient to use, don't use the non-generic collections. However, some libraries may return instances of non-generic collections, and you'll need to deal with them.
+In the old days of C#, before we had generic collections, we had non-generic collections, like `ArrayList`. Since generic collections are infinitely more convenient to use, don't use the non-generic collections. However, some libraries may return instances of non-generic collections, and you'll need to deal with them.
 
 You can create a generic enumerable from a non-generic one by using `.Cast<T>()` and `.OfType<T>()` extension methods.
